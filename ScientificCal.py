@@ -154,7 +154,7 @@ class ScientificCalculator:
         for key, value in functions.items():
             expression = expression.replace(f"__{key}__", value)
 
-        expression = expression.replace('√', 'math.sqrt(')
+        expression = expression.replace('√', 'math.sqrt')
         expression = expression.replace('exp', '*10**')
         
         expression = re.sub(r'(?<!\d|\))\*10\*\*', '1*10**', expression)
