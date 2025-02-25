@@ -13,7 +13,7 @@ class ScientificCal:
 
     def sci_cal(self):
         self.scientific_window = tk.Toplevel(self.root)
-        self.scientific_window.title("Scientific Calculator")
+        self.scientific_window.title("Trigonometry Graphs")
         self.scientific_window.geometry("480x650")
         self.scientific_window.configure(bg="Lavender")
 
