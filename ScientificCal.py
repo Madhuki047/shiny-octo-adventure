@@ -26,8 +26,8 @@ class SimpleCalculator:
 
         science_menu = Menu(menu)
         menu.add_cascade(label='Scientific', menu=science_menu)
-        science_menu.add_command(label='Trig Graphs', command=self.scientific_calculator.sci_cal)  # Renamed option
-        science_menu.add_command(label='Scientific Calculator', command=self.open_scientific_calculator)  # New option
+        science_menu.add_command(label='Trig Graphs', command=self.scientific_calculator.sci_cal)
+        science_menu.add_command(label='Scientific Calculator', command=self.open_scientific_calculator)
 
         helpmenu = Menu(menu)
         menu.add_cascade(label='Help', menu=helpmenu)
