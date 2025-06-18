@@ -1,13 +1,13 @@
 This repository contains two Python programs, an advance calculator and a contact book, developed for a first-year university assessment. Both programs utilize OOP principles to ensure better code management and scalability.
 Project Strucutre:
   Advance Calculator files:
-    ScientificCal.py  # Main file with simple and advance calculator functions
-    SciCalGraph.py    # Functions of graphs
-    UnitConverter.py  # Unit conversion functions
+    ScientificCal.py  # Main file with simple and advance calculator functions.
+    SciCalGraph.py    # Functions of graphs.
+    UnitConverter.py  # Unit conversion functions.
   Contact Book files:
-    THEcontactBOOK.py  # Main file
-    ClassGUI.py        # User interface and functioning of the contact book
-    ClassDatabase.py   # Management of data storage in MySQL database
+    THEcontactBOOK.py  # Main file.
+    ClassGUI.py        # User interface and functioning of the contact book.
+    ClassDatabase.py   # Management of data storage in MySQL database.
 Advance Calculator Features:
   Carries out advance mathematical functions including trignometric and logarithmic function.
   Allows graphs to be generated to visualize data and analyze graph co-ordinates.
